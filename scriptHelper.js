@@ -17,23 +17,25 @@ function addDestinationInfo(document, name, diameter, star, distance, moons, ima
 }
 
 function validateInput(testInput) {
-   
+   if(testInput === string) {
+
+   }
 }
 
 function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
    
 }
 
-async function myFetch() {
-    let planetsReturned;
+async function myFetch() { //asynch (tells us its going to be an asynchronous fxn)and await-(exicute code afterawait) request a promise and wait for it to happen
+    let planetsReturned;//fxn only partially complete - hae to add url to fetch and return responce.json
 
-    planetsReturned = await fetch().then( function(response) {
+    planetsReturned = await fetch().then( function(response) {//then do something with the responce to get responce object to tuen into a "friendly" json object
         });
 
     return planetsReturned;
 }
 
-function pickPlanet(planets) {
+function pickPlanet(planets) {//plantes = array of plantes
 }
 
 module.exports.addDestinationInfo = addDestinationInfo;
