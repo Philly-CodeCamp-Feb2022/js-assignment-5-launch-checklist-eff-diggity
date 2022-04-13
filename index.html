@@ -12,6 +12,10 @@
 <body>
     <h1>Launch Checklist Form</h1>
     <div id="missionTarget" data-testid="missionTarget">
+
+
+
+
         <!-- Fetch some planetary data -->
     </div>
     <div id="launchForm">
@@ -20,7 +24,7 @@
                 <label>Pilot Name <input type="text" name="pilotName" id="pilotName" /></label>
             </div>
             <div class="formField">
-                <label>Co-pilot Name <input type="text" name="copilotName" id="copilotName"/></label>
+                <label>Co-pilot Name <input type="text" name="copilotName" id="copilotName" /></label>
             </div>
             <div class="formField">
                 <label>Fuel Level (L) <input type="text" name="fuelLevel" id="fuelLevel" /></label>
@@ -34,14 +38,13 @@
     </div>
     <div id="launchStatusCheck">
         <h2 id="launchStatus" data-testid="launchStatus">Awaiting Information Before Launch</h2>
-        <div id="faultyItems" data-testid="faultyItems"> 
-                        <!-- update info chunks to have correct feedback based on inputs and update text for fuel/cargo using DOM-->
+        <div id="faultyItems" data-testid="faultyItems">
             <ol>
                 <li id="pilotStatus" data-testid="pilotStatus">Pilot Ready</li>
                 <li id="copilotStatus" data-testid="copilotStatus">Co-pilot Ready</li>
                 <li id="fuelStatus" data-testid="fuelStatus">Fuel level high enough for launch</li>
                 <li id="cargoStatus" data-testid="cargoStatus">Cargo mass low enough for launch</li>
-            
+
             </ol>
         </div>
     </div>

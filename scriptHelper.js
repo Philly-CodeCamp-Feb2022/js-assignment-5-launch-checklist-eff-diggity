@@ -27,7 +27,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
 }
 
 async function myFetch() { //asynch (tells us its going to be an asynchronous fxn)and await-(exicute code afterawait) request a promise and wait for it to happen
-    let planetsReturned;//fxn only partially complete - hae to add url to fetch and return responce.json
+    let planetsReturned;//fxn only partially complete - have to add url to fetch and return responce.json
 
     planetsReturned = await fetch().then( function(response) {//then do something with the responce to get responce object to tuen into a "friendly" json object
         });
